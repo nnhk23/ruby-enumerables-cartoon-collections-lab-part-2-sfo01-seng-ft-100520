@@ -20,11 +20,13 @@ def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
   index = 0 
   count = 0 
-  result = nil 
+  result = "" 
   while index < planeteer_calls.length do
     while count < valid_calls.length do
       if planeteer_calls[index] == valid_calls[count]
          result < planeteer_calls[index]
+       else 
+         result = nil 
     end
     count += 1
 end
