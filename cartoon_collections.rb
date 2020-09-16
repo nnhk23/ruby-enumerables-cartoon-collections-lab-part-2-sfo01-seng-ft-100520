@@ -16,9 +16,9 @@ def long_planeteer_calls(planeteer_calls)
   }
 end
 
-result = ""
 def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
+  result = ""
   planeteer_calls.map {|element|
   valid_calls.map {|call|
   if element == call 
