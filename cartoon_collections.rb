@@ -22,7 +22,7 @@ def find_valid_calls(planeteer_calls)
   planeteer_calls.map {|element|
   valid_calls.find {|call|
   if element == call 
-    result = element
+    result  element
   else 
     result = nil 
   end
